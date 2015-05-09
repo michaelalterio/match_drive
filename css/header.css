@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'HelveticaLTPro-Light', Helvetica,sans-serif;
+	font-size: 13px;
+	color: #36434a;
+	background-color: #25282a;
+	margin: 0;
+ 	padding: 0;
+ 	height: 100%;
+}
+
+
+html {
+    	height: 100%;
+    	margin: 0;
+    	padding: 0;
+}
+
+* html #wrapper {
+    	height:100%; 
+}
+
+#wrapper {
+    	min-height: 100%;
+    	position: relative;
+}
+
+#header {
+	color: #FFF;
+	background-color: #1b1d21;
+	height: 70px;
+	min-width:1100px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #22bbb8;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d9ecec;
+}
+
+#header_container {
+	width: 1100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#header ul {
+	list-style-type: none;
+	margin: 0; padding: 0; 
+	padding-top:15px;
+	padding-left:80px;
+}
+
+.match_logo {
+  	background: url(../images/match_logo.png) center bottom no-repeat;
+  	width: 200px;
+  	background-position-y: -18px;
+  	height: 60px;
+  	display: inline-block;
+}
