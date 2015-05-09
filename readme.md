@@ -19,3 +19,6 @@ Once these database changes are complete, you should be able to test the site!
 
 Link to live site:
 http://michaelalterio.co/match_drive/index.php
+
+
+Testing was done mainly on Chrome & Safari. Also tested on Firefox (was a bit slow with updating list), iPhone, and IE11. I don't have access to IE8 or IE9 - but it should work on those browsers.
