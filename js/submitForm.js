@@ -51,7 +51,7 @@ $(document).ready(function() {
 		
 		var emailReg = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
 		
-		var nameReg = /^[a-z\s]+$/;
+		var nameReg = /^[a-zA-Z\s]+$/;
 		
 		var nameError = false; var emailError = false; var dobError = false;
 		
