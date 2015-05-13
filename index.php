@@ -38,7 +38,6 @@
 
 	displayForm();
 
-	// draw chat messages
 	$outputList = $GLOBALS['AjaxList']-> displayData();
 
 	echo "<div id='output-container'>$outputList</div>";
